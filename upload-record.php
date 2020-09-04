@@ -36,7 +36,7 @@ if(isset($data->patientno)
     $doctor_id=mysqli_real_escape_string($db_conn, trim($data->doctor_id));
     $remarks=mysqli_real_escape_string($db_conn, trim($data->remarks));
     $status=mysqli_real_escape_string($db_conn, trim($data->status));
-    $support=mysqli_real_escape_string($db_conn, trim($data->$support));
+    $support=mysqli_real_escape_string($db_conn, trim($data->support));
     $hospital_id=mysqli_real_escape_string($db_conn, trim($data->hospital_id));
 
 
